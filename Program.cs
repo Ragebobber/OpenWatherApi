@@ -49,7 +49,7 @@ namespace OpenWatherApi
 
         static void Main(string[] args)
         {
-            string Key = "66d2960dead721f579a64330876d7a61";
+            string Key = "";
             float lat = 56.129057f;// Широта 
             float lon = 40.406635f; // Долгота
             string ow_url = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon="+lon + "&units=metric" + "&lang=ru&appid=" + Key;
